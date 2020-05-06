@@ -1,0 +1,309 @@
+@media screen and (max-width:425px) {
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    background-image: url(/images/bg-body.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.main-header{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Imagen del nav mobile*/
+
+.main-nav{
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+nav ul li{
+    background-color: gray;
+    border:1px solid white;
+    padding: 5px;
+}
+.main-nav ul{
+    text-decoration: none;
+    position: relative;
+    margin:0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+/* Imagen del banner*/
+.banner {
+    margin: 10px 0px;
+    position: relative;
+}
+.imgbanner {
+    width: 100%;
+    height: auto;
+}
+
+/* Ordenando los productos*/
+
+.vip-products{
+    display: block;
+    margin: 0px 0px;
+}
+
+.product{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+.photo-container{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.photo{
+    width: 100%;
+}
+.special{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 0%;
+}
+.zoom{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0%;
+    bottom: 40%;
+    color: white;
+    background-color: rgb(155, 155, 155, 0.6);
+    text-decoration: none;
+    right: 0%;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 5px;
+}
+p{
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.more{
+    color: white;
+    background-color: rgb(130, 130, 130);
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Ordenando el footer*/
+.main-footer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+
+}
+
+.main-footer ul{
+    text-decoration: none;
+    position: relative;
+    margin:0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+footer ul li{
+    background-color: red;
+    border:1px solid white;
+    padding: 5px;
+}
+
+@media screen and (min-device-width : 426px) and (max-device-width : 768px){
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    background-image: url(/images/bg-body.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+    }
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.main-header{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+    
+    /* Imagen del nav mobile*/
+    
+    .main-nav{
+        text-align: center;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+    }
+    nav ul li{
+        background-color: gray;
+        border:1px solid white;
+        padding: 5px;
+    }
+    .main-nav ul{
+        text-decoration: none;
+        position: relative;
+        margin:0;
+        padding: 0;
+        display: block;
+        text-align: center;
+        list-style-type: none;
+    }
+    
+    /* Imagen del banner*/
+    .banner {
+        margin: 10px 0px;
+        position: relative;
+    }
+    .imgbanner {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Ordenando los productos*/
+    
+    .vip-products{
+        display: block;
+        margin: 0px 0px;
+    }
+    
+    .product{
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .photo-container{
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    .photo{
+        width: 100%;
+    }
+    .special{
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 80%;
+        top: 0%;
+    }
+    .zoom{
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 0%;
+        bottom: 40%;
+        color: white;
+        background-color: rgb(155, 155, 155, 0.6);
+        text-decoration: none;
+        right: 0%;
+        text-align: center;
+    }
+    
+    h2 {
+        margin-left: 5px;
+    }
+    p{
+        margin-left: 5px;
+        margin-right: 30px;
+    }
+    
+    .more{
+        color: white;
+        background-color: rgb(130, 130, 130);
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    /* Ordenando el footer*/
+    .main-footer{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        display: block;
+    
+    }
+    
+    .main-footer ul{
+        text-decoration: none;
+        position: relative;
+        margin:0;
+        padding: 0;
+        display: block;
+        text-align: center;
+        list-style-type: none;
+    }
+    footer ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+    }
+    footer ul li{
+        background-color: red;
+        border:1px solid white;
+        padding: 5px;
+    }
+
+}
