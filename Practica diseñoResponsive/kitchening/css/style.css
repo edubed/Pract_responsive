@@ -169,6 +169,8 @@ nav ul li{
     padding: 5px;
     width: 14%;
     display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .main-nav ul{
     text-decoration: none;
@@ -220,6 +222,8 @@ nav ul li{
     padding: 5px;
     width: 14%;
     display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .main-nav ul{
     text-decoration: none;
