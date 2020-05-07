@@ -1,13 +1,11 @@
-@media screen and (max-width:425px) {
-
 body{
     font-family: 'Roboto', sans-serif;
     background-color: transparent;
-    background-image: url(/images/bg-body.png);
+    background-image: url(../images/bg-body.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 .container{
     display: block;
@@ -28,6 +26,7 @@ body{
     margin-right: auto;
     border-radius: 50%;
     margin-bottom: 10px;
+    border-color: black;
 }
 
 /* Imagen del nav mobile*/
@@ -40,6 +39,7 @@ nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: 300;
+    text-transform: uppercase;
 }
 nav ul li{
     background-color: gray;
@@ -101,10 +101,12 @@ nav ul li{
     left: 0%;
     bottom: 40%;
     color: white;
-    background-color: rgb(155, 155, 155, 0.6);
+    background-color: rgb(1%, 1%, 1%, 0.6);
     text-decoration: none;
     right: 0%;
     text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -154,42 +156,8 @@ footer ul li{
 
 @media screen and (min-device-width : 426px) and (max-device-width : 768px){
 
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: transparent;
-    background-image: url(/images/bg-body.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
-    }
-.container{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-.main-header{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-    
-.logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
+/* nav para tablet*/
 
-    /* Imagen del nav mobile*/
-
-.main-nav{
-        text-align: center;
-}
-    
 nav ul li a{
     text-decoration: none;
     color: white;
@@ -199,8 +167,10 @@ nav ul li{
     background-color: gray;
     border:1px solid white;
     padding: 5px;
+    width: 14%;
+    display: inline-block;
 }
-    .main-nav ul{
+.main-nav ul{
     text-decoration: none;
     position: relative;
     margin:0;
@@ -209,25 +179,13 @@ nav ul li{
     text-align: center;
     list-style-type: none;
 }
-
-    /* Imagen del banner*/
-.banner {
-    margin: 10px 0px;
-    position: relative;
-    }
-.imgbanner {
-    width: 100%;
-    height: auto;
-}
-    
     /* Ordenando los productos*/
-
 .vip-products{
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;
     justify-content: space-between;
-    }
+}
 .product{
     position: relative;
     display: block;
@@ -237,56 +195,33 @@ nav ul li{
 .photo-container{
     position: relative;
     display: block;
-    width: 100%;
-}
-.photo{
-    width: 100%;
+    width: 95%;
 }
 .special{
     width: auto;
     height: auto;
     position: absolute;
-    left: 80%;
+    left: 77%;
     top: 0%;
 }
-    .zoom{
-        position: absolute;
-        width: auto;
-    height: auto;
-        left: 0%;
-    bottom: 40%;
-    color: white;
-    background-color: rgb(155, 155, 155, 0.6);
-    text-decoration: none;
-    right: 0%;
-    text-align: center;
-    }
-h2 {
-        margin-left: 5px;
-    }
-    p{
-        margin-left: 5px;
-        margin-right: 30px;
-    }
-    
-    .more{
-    color: white;
-    background-color: rgb(130, 130, 130);
-    text-decoration: none;
-        padding: 5px;
-    }
-    
-    /* Ordenando el footer*/
-    .main-footer{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    display: block;
-
 }
 
-.main-footer ul{
+@media screen and (min-device-width : 769px){
+    /* nav para escritorio*/
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+nav ul li{
+    background-color: gray;
+    border:1px solid white;
+    padding: 5px;
+    width: 14%;
+    display: inline-block;
+}
+.main-nav ul{
     text-decoration: none;
     position: relative;
     margin:0;
@@ -295,15 +230,72 @@ h2 {
     text-align: center;
     list-style-type: none;
 }
+
+.vip-products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+.product{
+    position: relative;
+    display: block;
+    width: 33.33%;
+    margin-top: 15px;
+}
+.photo-container{
+    position: relative;
+    display: block;
+    width: 95%;
+}
+.special{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 73%;
+    top: 0%;
+}
+
+/* Ordenando el footer*/
+.main-footer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: block;
+    background-color: red;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.main-footer ul{
+    text-decoration: none;
+    position: relative;
+    margin:0;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    width: 95%;
+    height: 56px;
+    padding: 47px;
+}
 footer ul li a{
     text-decoration: none;
     color: white;
     font-weight: 300;
-    }
+    padding-right: 7px;
+}
 footer ul li{
+    text-transform: capitalize;
+    text-align: center;
     background-color: red;
     border:1px solid white;
-    padding: 5px;
-    }
+    width: 8%;
+    display: inline-block;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 3px;
+    padding-right: 0px;
+}
 
 }
